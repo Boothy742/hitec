@@ -1,0 +1,79 @@
+html, body, {
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+/* .noselect { */
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.center {
+  text-align: center;
+}
+
+.game-data2 {
+  border: solid 1px black;
+  margin-top: 0.25em;
+  padding: 0.25em;
+  width: 90%;
+  text-align: center;
+}
+
+.game-data {
+  border: solid 5px black;
+  margin-top: 0.25em;
+  padding: 0.25em;
+  width: 90%;
+  text-align: center;
+}
+
+.row2 {
+  display: block;
+  flex-wrap: nowrap;
+  padding: 0 4px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column, .reel {
+  flex: 33%;
+  padding: 0 4px;
+}
+
+.reel {
+  border: solid 5px yellow;
+}
+
+.column img, .reel img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  padding: 5px 20px;
+}
+
+.container {
+ margin-top: 1em;
+}
+
+#pie-chart {
+  width: 200px;
+  height: 200px;
+}
+
